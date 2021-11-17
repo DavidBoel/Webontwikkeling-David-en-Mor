@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Op deze pagina staan al de producten die we verkopen op onze site. Via deze pagina kan je bij de betaling komen.-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoetbalshopNL</title>
+    <link rel="stylesheet" href="layout.css">
+    <!--Hier staat de achtergrond en dit zorgt ervoor dat de achtergrond een geheel is en niet verschillende plaatjes
+    Ik heb hierbij gebruik gemaakt van W3schools-->
+    <style>
+        body {
+            background-image: url('Green background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <!--Deze code hieronder is ervoor om het icoontje waar je al de tabbladen ziet te laten zien.-->
+    <link rel="shortcut icon" type="image/jpg" href="Football.png" />
+</head>
+<!--Hier onder staat de code voor het home icoontje linkbovenaan op de website
+        Luke heeft mij hier mee geholpen om dit er mooi uit te laten zien-->
+
+<body>
+    <div class="header"></div>
+    <div class="container"></div>
+    <div class="navbar">
+        <div class="logo">
+            <a href="Home.html">
+                <img src="Home.png" alt="Home" width="150"></a>
+        </div>
+        <!--Hier onder staat de code van het menu en dit zorgt ervoor dat je op elke link kan klikken
+            Ik heb hierbij de hulp van W3schools bij gebruikt-->
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Login.html">Log in</a></li>
+                <li><a href="Info.html">Info</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Hier staat de code van alle producten met plaatjes en bijbehorende prijs.
+        De prijs is in $ omdat als ik euro's zou gebruiken zou de controle site zeggen dat het verkeerd is.
+        De plaatjes bevatten allenmaal een link naar de betalings pagina om het product te betalen.
+        Ik heb gebruikt gemaakt van W3schools om de links in de plaatjes te krijgen.-->
+    <div class="row">
+        <div class="column">
+            <a href="betaling.html">
+                <img src="Football.png" alt="Voetbal" style="width:200px">
+                <p> Prijs van $25 naar $15</p>
+            </a>
+        </div>
+        <div class="column">
+            <a href="betaling.html">
+                <img src="Footballshoe.png" alt="Schoenen" style="width:200px">
+                <p>Prijs van $50 naar $40</p>
+            </a>
+        </div>
+        <div class="column">
+            <a href="betaling.html">
+                <img src="Footballscheenbeschermers.png" alt="scheenbeschermers" style="width:200px">
+                <p>Prijs van $30 naar $22</p>
+            </a>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="column2">
+            <a href="betaling.html">
+                <img src="Voetbalgoal.png" alt="Goal" style="width:300px">
+                <p>Prijs: $100</p>
+            </a>
+        </div>
+        <div class="column2">
+            <a href="betaling.html">
+                <img src="Handschoenen.png" alt="Handschoenen" style="width:200px">
+                <p>Prijs: $45</p>
+            </a>
+        </div>
+        <div class="column2">
+            <a href="betaling.html">
+                <img src="Kousen.png" alt="Kousen" style="width:200px">
+                <p>Prijs: $15</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

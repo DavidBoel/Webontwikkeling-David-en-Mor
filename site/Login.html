@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Dit is onze site voor als je wilt inloggen op de site.
+    Als je de informatie hebt ingevuld wordt dit verder niet opgeslagen of bijgehouden omdat dit te ingewikkeld was en te veel werk.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoetbalshopNL</title>
+    <link rel="stylesheet" href="layout.css">
+    <!--Hier staat de achtergrond en dit zorgt ervoor dat de achtergrond een geheel is en niet verschillende plaatjes
+    Ik heb hierbij gebruik gemaakt van W3schools-->
+    <style>
+        body {
+            background-image: url('Green background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <!--Deze code hieronder is ervoor om het icoontje waar je al de tabbladen ziet te laten zien.-->
+    <link rel="shortcut icon" type="image/jpg" href="Football.png" />
+</head>
+<!--Hier onder staat de code voor het home icoontje linkbovenaan op de website
+        Luke heeft mij hier mee geholpen om dit er mooi uit te laten zien-->
+
+<body>
+    <div class="header"></div>
+    <div class="container"></div>
+    <div class="navbar">
+        <div class="logo">
+            <a href="Home.html">
+                <img src="Home.png" alt="Home" width="150"></a>
+        </div>
+        <!--Hier onder staat de code van het menu en dit zorgt ervoor dat je op elke link kan klikken
+            Ik heb hierbij de hulp van W3schools bij gebruikt-->
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Login.html">Log in</a></li>
+                <li><a href="Info.html">Info</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Hieronder staat de code van het forum waarbij je gegevens invuld.
+    Je kunt al je gegevens invullen maar als je op submit drukt gebeurt er niks mee omdat dit te lastig en te veel werk was.
+    Ik heb voor het maken van de forum gebruik gemaakt van W3schools-->
+
+    <div class="form">
+        <form>
+            <label>Geslacht</label><br>
+            <input type="radio" id="Man" name="Man" value="Geslacht">
+            <label for="Man">M</label><br>
+            <input type="radio" id="Vrouw" name="Vrouw" value="Geslacht">
+            <label for="Vrouw">V</label><br>
+            <input type="radio" id="anders" name="anders" value="Geslacht">
+            <label for="anders">Anders</label><br>
+            <label for="tele">Telefoon:</label><br>
+            <input type="text" id="tele" name="tele"><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="Wachtw">Wachtwoord:</label><br>
+            <input type="text" id="Wachtw" name="Wachtw"><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

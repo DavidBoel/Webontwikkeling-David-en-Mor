@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Dit is onze hoofdpagina van onze site, hier staan de aanbiedeingen en een korte verwelkoming.
+    De site kan er in de prview in visual studio code een beetje raar uitzien maar dan moet je in de browser kijken.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoetbalshopNL</title>
+    <link rel="stylesheet" href="layout.css">
+
+    <!--Hier staat de achtergrond en dit zorgt ervoor dat de achtergrond een geheel is en niet verschillende plaatjes
+    Ik heb hierbij gebruik gemaakt van W3schools-->
+    <style>
+        body {
+            background-image: url("Green background.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <!--Deze code hieronder is ervoor om het icoontje waar je al de tabbladen ziet te laten zien.-->
+    <link rel="shortcut icon" type="image/jpg" href="Football.png" />
+</head>
+
+<!--Hier onder staat de code voor het home icoontje linkbovenaan op de website
+Luke heeft mij hier mee geholpen om dit er mooi uit te laten zien-->
+
+<Body>
+    <div class="header"></div>
+    <div class="container"></div>
+    <div class="navbar">
+        <div class="logo">
+            <a href="Home.html">
+                <img src="Home.png" alt="Home" width="150"></a>
+        </div>
+        <!--Hier onder staat de code van het menu en dit zorgt ervoor dat je op elke link kan klikken
+        Ik heb hierbij de hulp van W3schools bij gebruikt-->
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Login.html">Log in</a></li>
+                <li><a href="Info.html">Info</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Deze code is van de text die in het midden van het document staat.
+    Ik heb de tekst in het midden gekregen doormiddel van css te gebruiken.
+    Ik heb W3schools gebruikt om de css te maken-->
+    <div class="text">
+        <p>
+            Wij verkopen de beste voetbal producten in heel Nederland
+        </p>
+        <h2>
+            In de aanbieding:
+        </h2>
+    </div>
+    <!--Hieronder staat de code van de plaatjes op de site. Ook staat hier de code van de links in de plaatjes
+    Deze links in de plaatjes heb ik kunnen gemaakt met behulp van W3schools-->
+    <div class="img1">
+        <a href="Products.html">
+            <img src="Football.png" alt="Voetbal" width="200" height="200">
+        </a>
+    </div>
+    <div class="img2">
+        <a href="Products.html">
+            <img src="Footballshoe.png" alt="Schoenen" width="200" height="200">
+        </a>
+    </div>
+    <div class="img3">
+        <a href="Products.html">
+            <img src="Footballscheenbeschermers.png" alt="Scheenbeschremers" width="200" height="200">
+        </a>
+    </div>
+<!--Hier staat de code die onderaan de site staat. Ik heb deze code zelf kunnen schrijven zonder hulp.
+De tekst is gecenterd doormiddel van de css.-->
+    <div class="beschrijving">
+        <a> We hopen dat we jullie met deze site kunnen helpen de juiste producten te vinden </a>
+    </div>
+<!--Hieronder staat de code van de embed. 
+Ik weet niet zo goed wat dit anders doet dan een img tag maar het stond in de opdracht dus heb ik het toegevoegd als sier voor de tekst hierboven.
+Ik heb de embed functie gevonden op W3schools-->
+    <div class="embed">
+        <embed type="image/jpg" src="Voetbal.jpg" width="300" height="200">
+    </div>
+
+</Body>
+
+</html>
